@@ -54,13 +54,7 @@ Option to subscribe to the daily digest of the quiz that will be sent at 10 am i
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
@@ -68,16 +62,13 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/NoxzMSTR/QuizTestLaravel.git
+   https://github.com/umer296122/quiz-test.git
    ```
 2. Run migration
    ```sh
    php artisan migrate
    ```   
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -87,14 +78,10 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-4. Run NPM Dev
-   ```sh
-   npm run dev
 
-   ```
 5. Run scheduler
    ```sh
-   php artisan schedule:work
+   php artisan schedule:run
 
    ```
 _For more examples, please refer to the [Documentation](https://example.com)_
